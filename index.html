@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waypoints and Animatecss</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+  <header class="header flex">
+    <h2 class="header__title animate__animated animate__pulse animate__infinite">Start Scrolling</h2>
+    <div class="header__arrow">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+  
+  <main>
+    <section class="fade-y">
+      <div class="fade-y__box animate__animated">100%</div>
+      <div class="fade-y__box animate__animated">70%</div>
+      <div class="fade-y__box animate__animated">50%</div>
+      <div class="fade-y__box animate__animated">20%</div>
+      <img class="bird animate__animated" src="img/bird.png" alt="bird" width="100" height="100">
+    </section>
+
+    <section class="fade-list">
+      <ul>
+        <li class="fade-list__box animate__animated"></li>
+        <li class="fade-list__box animate__animated"></li>
+        <li class="fade-list__box animate__animated"></li>
+        <li class="fade-list__box animate__animated"></li>
+        <li class="fade-list__box animate__animated"></li>
+        <li class="fade-list__box animate__animated"></li>
+        <li class="fade-list__box animate__animated"></li>
+      </ul>
+      <img class="bird animate__animated" src="img/bird.png" alt="bird" width="100" height="100">
+    </section>
+
+    <section class="fade-x">
+      <div class="fade-x__box animate__animated"></div>
+      <div class="fade-x__box animate__animated"></div>
+      <img class="bird animate__animated" src="img/bird.png" alt="bird" width="100" height="100">
+    </section>
+
+    <section class="bounce-in">
+      <div class="bounce-in__box animate__animated"></div>
+      <div class="bounce-in__box animate__animated"></div>
+      <div class="bounce-in__box animate__animated"></div>
+      <div class="bounce-in__box animate__animated"></div>
+      <div class="bounce-in__box animate__animated"></div>
+      <div class="bounce-in__box animate__animated"></div>
+      <div class="bounce-in__box animate__animated"></div>
+      <img class="bird animate__animated" src="img/bird.png" alt="bird" width="100" height="100">
+    </section>
+
+    <section class="fade-delay">
+      <ul class="fade-delay__list flex">
+        <li class="fade-delay__box animate__animated"></li>
+        <li class="fade-delay__box animate__animated"></li>
+        <li class="fade-delay__box animate__animated"></li>
+      </ul>
+      <img class="bird animate__animated" src="img/bird.png" alt="bird" width="100" height="100">
+    </section>
+
+    <section class="fade-enlarge">
+      <div class="fade-enlarge__circle animate__animated"></div>
+      <img class="bird animate__animated" src="img/bird.png" alt="bird" width="100" height="100">
+    </section>
+  </main>
+
+  <footer class="footer flex">
+    <div class="footer__arrow">
+      <span></span><span></span><span></span>
+    </div>
+    <h2 class="footer__title animate__animated animate__shakeY animate__infinite">Scroll Back</h2>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/jquery.waypoints.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
